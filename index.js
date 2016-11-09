@@ -1,6 +1,34 @@
+import React, { PropTypes } from 'react'
+import requireNativeComponent from 'requireNativeComponent'
+import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource'
 
-import { NativeModules } from 'react-native';
 
-const { RNWinGif } = NativeModules;
+export default class WinGif extends React.Component {
 
-export default RNWinGif;
+  static propTypes = {
+    src: PropTypes.object,
+    ...View.propTypes
+  }
+
+  render () {
+    const source = resolveAssetSource(this.props.source || {})
+
+    let uri = source.uri
+    if (uri && uri.match(/^\//)) {
+      uri = `file://${uri}`
+    }
+
+    const nativeProps = {
+      ...this.props,
+      src: {uri}
+    }
+
+    return (
+        <WinGifNative
+          {...nativeProps}
+        />
+    )
+  }
+}
+
+var WinGifNative = requireNativeComponent('WinGif', WinGif)
