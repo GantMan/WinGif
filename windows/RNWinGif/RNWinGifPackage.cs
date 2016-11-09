@@ -22,10 +22,7 @@ namespace Com.Reactlibrary.RNWinGif
         /// <returns>The list of native modules.</returns>
         public IReadOnlyList<INativeModule> CreateNativeModules(ReactContext reactContext)
         {
-            return new List<INativeModule>
-            {
-                return Array.Empty<INativeModule>();
-            };
+            return Array.Empty<INativeModule>();
         }
 
         /// <summary>
