@@ -1,13 +1,17 @@
 {
   "name": "react-native-win-gif",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "React Native windows simple abstraction and Gif implementation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-native-windows",
+    "windows",
+    "animated",
+    "gif"
   ],
   "author": "",
   "license": "",
