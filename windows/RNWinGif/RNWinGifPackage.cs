@@ -24,7 +24,7 @@ namespace Com.Reactlibrary.RNWinGif
         {
             return new List<INativeModule>
             {
-                new RNWinGifModule(),
+                return Array.Empty<INativeModule>();
             };
         }
 
@@ -35,7 +35,7 @@ namespace Com.Reactlibrary.RNWinGif
         /// <returns>The list of JavaScript modules.</returns>
         public IReadOnlyList<Type> CreateJavaScriptModulesConfig()
         {
-            return new List<Type>(0);
+            return Array.Empty<Type>();
         }
 
         /// <summary>
@@ -47,7 +47,10 @@ namespace Com.Reactlibrary.RNWinGif
         public IReadOnlyList<IViewManager> CreateViewManagers(
             ReactContext reactContext)
         {
-            return new List<IViewManager>(0);
+            return new List<IViewManager>
+            {
+                new ReactWinGifViewManager(),
+            };
         }
     }
 }
