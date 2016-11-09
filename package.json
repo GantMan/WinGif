@@ -1,6 +1,6 @@
 {
   "name": "react-native-win-gif",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,5 @@
   },
   "devDependencies": {
     "react-native-windows": "^0.37.0-rc.0"
-  },
-  "dependencies": {
-    "react-native": "^0.37.0"
   }
 }
