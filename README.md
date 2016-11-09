@@ -1,5 +1,8 @@
+Great for learning Windows native bridging
 
 # react-native-win-gif
+Animated GIFs for React Native Windows
+![Imgur](http://i.imgur.com/ZBSHpd1.gif)
 
 ## Getting started
 
@@ -23,9 +26,13 @@
 
 ## Usage
 ```javascript
-import RNWinGif from 'react-native-win-gif';
-
-// TODO: What do with the module?
-RNWinGif;
+import WinGIf from 'react-native-win-gif'
+...
+render() {
+  return (
+    <WinGif source={require('../Images/meow.gif')} style={{width: 200, height: 200}} />
+    <WinGif source={{ uri: 'http://i.imgur.com/ZBSHpd1.gif'}} style={{width: 200, height: 200}} />
+  )
+}
 ```
   
