@@ -19,7 +19,7 @@
     <ReactWindowsRoot>..\..\node_modules</ReactWindowsRoot>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' != 'Development'">
-    <ReactWindowsRoot>..\..</ReactWindowsRoot>
+    <ReactWindowsRoot>..\..\..</ReactWindowsRoot>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
