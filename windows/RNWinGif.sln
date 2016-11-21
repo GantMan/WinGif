@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNWinGif", "RNWinGif\RNWinG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactNative", "..\node_modules\react-native-windows\ReactWindows\ReactNative\ReactNative.csproj", "{C7673AD5-E3AA-468C-A5FD-FA38154E205C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNWinGif.Net46", "RNWinGif.Net46\RNWinGif.Net46.csproj", "{71C47828-F347-40BF-AAFC-C801CCDB176F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\node_modules\react-native-windows\ReactWindows\ReactNative.Shared\ReactNative.Shared.projitems*{c7673ad5-e3aa-468c-a5fd-fa38154e205c}*SharedItemsImports = 4
@@ -71,6 +73,30 @@ Global
 		{C7673AD5-E3AA-468C-A5FD-FA38154E205C}.Release|x64.Build.0 = Release|x64
 		{C7673AD5-E3AA-468C-A5FD-FA38154E205C}.Release|x86.ActiveCfg = Release|x86
 		{C7673AD5-E3AA-468C-A5FD-FA38154E205C}.Release|x86.Build.0 = Release|x86
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|x64.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Debug|x86.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|ARM.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|ARM.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|x64.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|x64.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|x86.ActiveCfg = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Development|x86.Build.0 = Debug|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|ARM.Build.0 = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|x64.ActiveCfg = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|x64.Build.0 = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|x86.ActiveCfg = Release|Any CPU
+		{71C47828-F347-40BF-AAFC-C801CCDB176F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
